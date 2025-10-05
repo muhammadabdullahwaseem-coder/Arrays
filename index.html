@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var abv = [1,2,3,4,5];
+        abv[0] = "ahmad";
+        // destructured of array
+        var abc = ["ahmad" , 22 , true];
+        var [name , rollnum , status] = abc;
+        // type name for ahmad and etc
+        name // ahmad
+        rollnum // 22
+        status // true
+        var mm1 = [1,2,3]
+        var cc = ["ahmad , 22"]
+        nn = prompt("enter your name");
+        dd = [...mm1 , ...cc , ...mm1 , nn]
+        //>(9)[1, 2, 3, 'ahmad , 22', 1, 2, 3, 'ahmad']
+        var a = [1,2,3]
+        a.push(77)
+        // (4)[1, 2, 3, 77]
+        a.pop()
+        // (3)[1, 2, 3]
+        a.shift()
+        // (2)[2, 3, 77]
+        a.unshift(99)
+        // (3)[99, 2, 3, 77]
+        
+    </script>
+</body>
+</html>
